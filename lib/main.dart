@@ -49,17 +49,19 @@ class _a1State extends State<a1> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              color: Colors.blue,
+              color: Colors.red,
               width: 70,
-              height: 60,
+              height: 100,
             ),
             Container(
-              width: 100,
-              height: 30,
+              width: 30,
+              height: 40,
+              color: Colors.yellow,
             ),
             Container(
               width: 70,
               height: 60,
+              color: Colors.orange,
             ),
           ],
         ),
